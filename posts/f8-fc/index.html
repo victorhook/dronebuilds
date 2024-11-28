@@ -48,7 +48,7 @@
         },
         "datePublished": "2024-11-28",
         "description": "",
-        "wordCount":  65 ,
+        "wordCount":  328 ,
         "mainEntityOfPage": "True",
         "dateModified": "2024-11-28",
         "image": {
@@ -69,7 +69,7 @@
     <meta property="og:title" content="f8 fc" />
 <meta property="og:description" content="The open-source brushed AIO flight controller for x8 drones.
 f8 fc is a fully open source flight controller that is made primarily for small drones with brushed drones. It features:
-STM32F405 microcontroller with 1MB flash BMI270 imu BMP388 barometer Onboard 16MB external flash for data logging Status LEDs 1-4s input voltage 4 available UARTs 8 brushed motor drives with 6A mosfets Voltage &amp; current sensing " />
+STM32F405 microcontroller with 1MB flash BMI270 imu BMP388 barometer Onboard 16MB external flash for data logging Status LEDs 1-4s input voltage 4 available UARTs 8 brushed motor drives with 6A mosfets Voltage &amp; current sensing Runs ardupilot How to flash Ardupilot Get ardupilot toolchain and put the hwdef." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://victorhook.github.io/dronebuilds/posts/f8-fc/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-11-28T07:20:14+01:00" />
@@ -81,7 +81,7 @@ STM32F405 microcontroller with 1MB flash BMI270 imu BMP388 barometer Onboard 16M
     <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="f8 fc"/>
 <meta name="twitter:description" content="The open-source brushed AIO flight controller for x8 drones.
 f8 fc is a fully open source flight controller that is made primarily for small drones with brushed drones. It features:
-STM32F405 microcontroller with 1MB flash BMI270 imu BMP388 barometer Onboard 16MB external flash for data logging Status LEDs 1-4s input voltage 4 available UARTs 8 brushed motor drives with 6A mosfets Voltage &amp; current sensing "/>
+STM32F405 microcontroller with 1MB flash BMI270 imu BMP388 barometer Onboard 16MB external flash for data logging Status LEDs 1-4s input voltage 4 available UARTs 8 brushed motor drives with 6A mosfets Voltage &amp; current sensing Runs ardupilot How to flash Ardupilot Get ardupilot toolchain and put the hwdef."/>
 
 
     
@@ -171,6 +171,7 @@ stroke-linejoin="round" class="feather feather-home">
             
             <div class="page-content">
                 <p>The open-source brushed AIO flight controller for x8 drones.</p>
+<p><img src="pcb.jpg" alt="PCB"></p>
 <p><a href="https://github.com/victorhook/f8-fc">f8 fc</a> is a fully open source flight controller that is made primarily for small drones with brushed drones. It features:</p>
 <ul>
 <li>STM32F405 microcontroller with 1MB flash</li>
@@ -182,6 +183,41 @@ stroke-linejoin="round" class="feather feather-home">
 <li>4 available UARTs</li>
 <li><strong>8</strong> brushed motor drives with 6A mosfets</li>
 <li>Voltage &amp; current sensing</li>
+<li>Runs ardupilot</li>
+</ul>
+<h2 id="how-to-flash-ardupilot">How to flash Ardupilot</h2>
+<ol>
+<li>Get ardupilot toolchain and put the <code>hwdef.dat</code> and <code>hwdef_bl.dat</code> in <code>ardupilot/libraries/AP_HAL_ChibiOS/hwdef/f8-fc/</code></li>
+<li>Build bootloader</li>
+</ol>
+<pre tabindex="0"><code>./waf clean
+./waf configure --board f8-fc --bootloader
+./waf bootloader
+</code></pre><ol start="3">
+<li>Flash bootloader using something like STM32CubeProgrammer. Hold boot button when powering on the board to boot in DFU mode.</li>
+<li>Build firmware and upload using the bootloader (have board plugged in to USB and ensure you get a new serial port)</li>
+</ol>
+<pre tabindex="0"><code>./waf configure --board f8-fc
+./waf copter --upload
+</code></pre><h2 id="pcb-revision-a-notes">PCB revision A notes</h2>
+<ul>
+<li>By accident I chose an active crystal instead of passive crystal. Had to de-solder the crystal (as its pins doesn&rsquo;t match passive) and have it soldered externally. The board worked fine with this setup, but clumpsy to have crystal externally&hellip;</li>
+<li>Couldn&rsquo;t fint 8 MHz with 2016 SMD footprint, so had to get 16 MHz.</li>
+<li>With new crystal, had to reduce stray capacitors, as EKF got crazy, and USB DFU didn&rsquo;t always work on all boards.</li>
+<li>Voltage drops under load could cause the DC-DC to the mcu to potentially brown out. Perhaps it would have been better to have a buck-boost converter instead, to allow the battery voltage to drop below 3.3V for short periods of time without risking the mcu to shutdown.</li>
+<li>Forgot pull-up resistor on I2C bus</li>
+</ul>
+<h3 id="future-revision-thoughts">Future revision thoughts</h3>
+<ul>
+<li>Add crystal ESR resistor (0R, placeholder initially)</li>
+<li>Add proper ground plane and shielding around the crystal</li>
+<li>Change footprint for crystal. Maybe 2-pin?</li>
+<li>Extra check stray capacitance and calculate thoroughly</li>
+<li>SWD pads should be bigger</li>
+<li>Add pull-up resistor on I2C bus</li>
+<li>Buck-boost converter instead of DC-DC</li>
+<li>SD card slot</li>
+<li>? ESP32 footprint for telemetry</li>
 </ul>
 
             </div>
