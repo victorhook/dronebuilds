@@ -1,0 +1,20 @@
+{
+    "name": "Victors drone builds",
+    "short_name": "Victors drone builds",
+    "start_url": "https://victorhook.github.io/dronebuilds/",
+    "theme_color": "#434648",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/dronebuilds/icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/dronebuilds/icons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

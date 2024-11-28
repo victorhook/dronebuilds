@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Victors drone builds</title>
+    <link>https://victorhook.github.io/dronebuilds/posts/</link>
+    <description>Recent content in Posts on Victors drone builds</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 Nov 2024 07:20:14 +0100</lastBuildDate><atom:link href="https://victorhook.github.io/dronebuilds/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>f8 fc</title>
+      <link>https://victorhook.github.io/dronebuilds/posts/f8-fc/</link>
+      <pubDate>Thu, 28 Nov 2024 07:20:14 +0100</pubDate>
+      
+      <guid>https://victorhook.github.io/dronebuilds/posts/f8-fc/</guid>
+      
+      <description>The open-source brushed AIO flight controller for x8 drones.
+f8 fc is a fully open source flight controller that is made primarily for small drones with brushed drones. It features:
+STM32F405 microcontroller with 1MB flash BMI270 imu BMP388 barometer Onboard 16MB external flash for data logging Status LEDs 1-4s input voltage 4 available UARTs 8 brushed motor drives with 6A mosfets Voltage &amp;amp; current sensing </description>
+      
+    </item>
+    
+    <item>
+      <title>The worlds smallest x8 drone with brushed motors</title>
+      <link>https://victorhook.github.io/dronebuilds/posts/silvia/</link>
+      <pubDate>Thu, 28 Nov 2024 07:20:14 +0100</pubDate>
+      
+      <guid>https://victorhook.github.io/dronebuilds/posts/silvia/</guid>
+      
+      <description>hello</description>
+      
+    </item>
+    
+  </channel>
+</rss>
