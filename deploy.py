@@ -24,6 +24,6 @@ if __name__ == '__main__':
     os.system(f'cd {ROOT_DIR} && hugo')
 
     info(f'Deploying pages with commit message "{commit_msg}"')
-    os.system(f'cd {DEPLOY_DIR} && git add . && git commit -m "{commit_msg}" && git push origin gh-pages')
+    os.system(f'cd {DEPLOY_DIR} && git add . && git commit -m "{commit_msg}" && git push -f origin gh-pages')
 
     info('Done')
