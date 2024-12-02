@@ -27,7 +27,9 @@ STM32F405 microcontroller with 1MB flash BMI270 imu BMP388 barometer Onboard 16M
       
       <guid>https://victorhook.github.io/dronebuilds/posts/silvia/</guid>
       
-      <description>hello</description>
+      <description>I&amp;rsquo;ve wanted to build a mini x8 drone with brushed motors for some time it&amp;rsquo;s finally time! Everything is first sketched and modelled in Fusion360.
+Project Goal Build a tiny x8 drone with brushed motors that can fly with Ardupilot.
+Components Component Details Amount Price each [$] Link Flight controller AIO f8 fc 1 20 Github Motor 8520 3.7V 8 2 AliExpress Propeller 65mm 8 0.6 AliExpress Battery connector BetaFPV BT2.</description>
       
     </item>
     
