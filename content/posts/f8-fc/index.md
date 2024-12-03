@@ -2,6 +2,7 @@
 date = '2024-11-28T07:20:14+01:00'
 draft = false
 title = 'f8 fc'
+tags = ['f8-fc', 'hardware', 'ardupilot']
 +++
 The open-source brushed AIO flight controller for x8 drones.
 
