@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Victors drone builds</title>
-    <link>https://victorhook.github.io/dronebuilds/posts/</link>
-    <description>Recent content in Posts on Victors drone builds</description>
+    <title>F8-Fc on Victors drone builds</title>
+    <link>https://victorhook.github.io/dronebuilds/tags/f8-fc/</link>
+    <description>Recent content in F8-Fc on Victors drone builds</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Dec 2024 20:27:44 +0100</lastBuildDate><atom:link href="https://victorhook.github.io/dronebuilds/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Dec 2024 20:27:44 +0100</lastBuildDate><atom:link href="https://victorhook.github.io/dronebuilds/tags/f8-fc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tiny golden brushed quadcopter</title>
       <link>https://victorhook.github.io/dronebuilds/posts/golden-quad/</link>

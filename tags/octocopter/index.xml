@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Octocopter on Victors drone builds</title>
+    <link>https://victorhook.github.io/dronebuilds/tags/octocopter/</link>
+    <description>Recent content in Octocopter on Victors drone builds</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 Nov 2024 07:20:14 +0100</lastBuildDate><atom:link href="https://victorhook.github.io/dronebuilds/tags/octocopter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The worlds smallest x8 drone with brushed motors</title>
+      <link>https://victorhook.github.io/dronebuilds/posts/silvia/</link>
+      <pubDate>Thu, 28 Nov 2024 07:20:14 +0100</pubDate>
+      
+      <guid>https://victorhook.github.io/dronebuilds/posts/silvia/</guid>
+      
+      <description>I&amp;rsquo;ve wanted to build a mini x8 drone with brushed motors for some time it&amp;rsquo;s finally time! Everything is first sketched and modelled in Fusion360.
+Project Goal Build a tiny x8 drone with brushed motors that can fly with Ardupilot.
+Components Component Details Amount Price each [$] Link Flight controller AIO f8 fc 1 20 Github Motor 8520 3.7V 8 2 AliExpress Propeller 65mm 8 0.6 AliExpress Battery connector BetaFPV BT2.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

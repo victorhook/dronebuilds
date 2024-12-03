@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quadcopter on Victors drone builds</title>
+    <link>https://victorhook.github.io/dronebuilds/tags/quadcopter/</link>
+    <description>Recent content in Quadcopter on Victors drone builds</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Dec 2024 20:27:44 +0100</lastBuildDate><atom:link href="https://victorhook.github.io/dronebuilds/tags/quadcopter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tiny golden brushed quadcopter</title>
+      <link>https://victorhook.github.io/dronebuilds/posts/golden-quad/</link>
+      <pubDate>Tue, 03 Dec 2024 20:27:44 +0100</pubDate>
+      
+      <guid>https://victorhook.github.io/dronebuilds/posts/golden-quad/</guid>
+      
+      <description>Utilizing f8 fc brushed AIO this build became quite neat!
+Components Component Details Amount Price each [$] Link Flight controller AIO f8 fc 1 20 Github Motor 8520 3.7V 4 2 AliExpress Propeller 65mm 4 0.6 AliExpress Battery connector BetaFPV BT2.0 1 0.6 AliExpress Dampers M3 4 0.15 AliExpress Carbon fiber tube 4x2mm (40cm total) 1 4 AliExpress ELRS Receiver BETAFPV ELRS Lite 2.4 1 15 AliExpress A part from the components above I have used 3D printed parts in PLA, epoxy, bolts &amp;amp; nuts.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

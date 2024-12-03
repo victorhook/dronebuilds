@@ -2,20 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://victorhook.github.io/dronebuilds/tags/brushed-drone/</loc>
+    <lastmod>2024-12-03T20:27:44+01:00</lastmod>
+  </url><url>
+    <loc>https://victorhook.github.io/dronebuilds/tags/f8-fc/</loc>
+    <lastmod>2024-12-03T20:27:44+01:00</lastmod>
+  </url><url>
+    <loc>https://victorhook.github.io/dronebuilds/posts/</loc>
+    <lastmod>2024-12-03T20:27:44+01:00</lastmod>
+  </url><url>
+    <loc>https://victorhook.github.io/dronebuilds/tags/quadcopter/</loc>
+    <lastmod>2024-12-03T20:27:44+01:00</lastmod>
+  </url><url>
+    <loc>https://victorhook.github.io/dronebuilds/tags/</loc>
+    <lastmod>2024-12-03T20:27:44+01:00</lastmod>
+  </url><url>
+    <loc>https://victorhook.github.io/dronebuilds/posts/golden-quad/</loc>
+    <lastmod>2024-12-03T20:27:44+01:00</lastmod>
+  </url><url>
+    <loc>https://victorhook.github.io/dronebuilds/</loc>
+    <lastmod>2024-12-03T20:27:44+01:00</lastmod>
+  </url><url>
+    <loc>https://victorhook.github.io/dronebuilds/tags/ardupilot/</loc>
+    <lastmod>2024-11-28T07:20:14+01:00</lastmod>
+  </url><url>
+    <loc>https://victorhook.github.io/dronebuilds/tags/coaxial/</loc>
+    <lastmod>2024-11-28T07:20:14+01:00</lastmod>
+  </url><url>
     <loc>https://victorhook.github.io/dronebuilds/posts/f8-fc/</loc>
     <lastmod>2024-11-28T07:20:14+01:00</lastmod>
   </url><url>
-    <loc>https://victorhook.github.io/dronebuilds/posts/</loc>
+    <loc>https://victorhook.github.io/dronebuilds/tags/hardware/</loc>
+    <lastmod>2024-11-28T07:20:14+01:00</lastmod>
+  </url><url>
+    <loc>https://victorhook.github.io/dronebuilds/tags/octocopter/</loc>
     <lastmod>2024-11-28T07:20:14+01:00</lastmod>
   </url><url>
     <loc>https://victorhook.github.io/dronebuilds/posts/silvia/</loc>
     <lastmod>2024-11-28T07:20:14+01:00</lastmod>
   </url><url>
-    <loc>https://victorhook.github.io/dronebuilds/</loc>
-    <lastmod>2024-11-28T07:20:14+01:00</lastmod>
-  </url><url>
     <loc>https://victorhook.github.io/dronebuilds/categories/</loc>
-  </url><url>
-    <loc>https://victorhook.github.io/dronebuilds/tags/</loc>
   </url>
 </urlset>
