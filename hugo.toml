@@ -2,3 +2,7 @@ baseURL = "https://victorhook.github.io/dronebuilds/"
 languageCode = 'en-us'
 title = 'Victors drone builds'
 theme = "hugo-blog-awesome"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
