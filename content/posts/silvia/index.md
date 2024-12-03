@@ -2,6 +2,7 @@
 date = '2024-11-28T07:20:14+01:00'
 draft = false
 title = 'The worlds smallest x8 drone with brushed motors'
+tags = ['brushed-drone', 'coaxial', 'octocopter', 'f8-fc']
 +++
 
 ![Silvia](resources/silvia-small-battery-top.jpg)
@@ -30,4 +31,13 @@ A part from the components above I have used 3D printed parts in PLA, epoxy, bol
 ## Project Result
 While the drone does indeed fly, and can even lift with a big high discharge li-on 18650 battery, it is simply too inefficient. The main issue is that the voltage drop of the battery is too heavy and quite fast drops below 3.3V on occasions. This causes the 3.3V DC-DC the go down, causing the mcu to brown out, which in turns results in a very fast crash of the drone.
 
+![Voltage drop](resources/voltage_drop_crash.png)
+
+Flying with a 18650 li-on causing insane voltage drops.. 4.2 (fully charged) down to 3.3 after 20 seconds flight time...! 😃
+
+![Voltage drop](resources/voltage-drop.png)
+
+
 There is kind of a negative spiral when adding the extra for motors as this not only adds weight, but also adds an additional for motors that will consume current to lift this weight. Also, using a coaxial drive means that we'll loose some efficiency.
+
+Soo... Really cool project, loved to make an x8 fly, but not very useful for anything. The voltage drop is just too big and current consumption very high.
