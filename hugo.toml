@@ -6,3 +6,9 @@ theme = "hugo-blog-awesome"
 [taxonomies]
   tag = "tags"
   category = "categories"
+
+[params]
+
+  [params.author]
+    name = 'Victor Krook'
+
