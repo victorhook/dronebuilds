@@ -12,3 +12,6 @@ theme = "hugo-blog-awesome"
   [params.author]
     name = 'Victor Krook'
 
+  [[params.socialIcons]]
+    name = "github"
+    url = 'https://github.com/victorhook'
