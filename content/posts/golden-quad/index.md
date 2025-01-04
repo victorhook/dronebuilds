@@ -5,7 +5,24 @@ title = 'Tiny golden brushed quadcopter'
 tags = ['brushed-drone', 'quadcopter', 'f8-fc']
 +++
 
-Utilizing [f8 fc](/dronebuilds/posts/f8-fc/)  brushed AIO this build became quite neat!
+![Overview](resources/overview.jpg)
+
+Utilizing [f8 fc](/dronebuilds/posts/f8-fc/) brushed AIO this build became quite neat!
+
+The frame is create by carbon fibre tubes (4x2) and 3D-printed adaptors and motor mounts.
+
+![Build 1](resources/build1.jpg)
+
+The 3D printed parts and motors are held together with pressfit and epoxy. There are 4 threaded inserts in the middle for the flight controller (30.5 x 30.5).
+
+![Build 2](resources/build2.jpg)
+
+Once everything was put together I had to add some nice paint to it!
+
+![Done 1](resources/done1.jpg)
+
+![Done 2](resources/done2.jpg)
+
 
 
 ## Components
@@ -22,3 +39,6 @@ Utilizing [f8 fc](/dronebuilds/posts/f8-fc/)  brushed AIO this build became quit
 A part from the components above I have used 3D printed parts in PLA, epoxy, bolts & nuts.
 
 **Total price: ~55$**
+
+## Project Result
+Hover flight time was approximately 2 minutes. I think the main issue is that it weighs too much, so further revisions should make it even lighter!
