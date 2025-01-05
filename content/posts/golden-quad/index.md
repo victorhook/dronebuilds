@@ -9,6 +9,8 @@ tags = ['brushed-drone', 'quadcopter', 'f8-fc']
 
 Utilizing [f8 fc](/dronebuilds/posts/f8-fc/) brushed AIO this build became quite neat!
 
+![Overview](resources/slowmo.GIF)
+
 The frame is create by carbon fibre tubes (4x2) and 3D-printed adaptors and motor mounts.
 
 ![Build 1](resources/build1.jpg)
