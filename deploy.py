@@ -6,6 +6,7 @@ from pathlib import Path
 
 ROOT_DIR = Path(__file__).absolute().parent
 DEPLOY_DIR = ROOT_DIR.joinpath('public')
+DEFAULT_COMMIT_MESSAGE = 'Automatic deploy'
 
 
 def info(msg: str) -> None:
@@ -16,10 +17,11 @@ def info(msg: str) -> None:
 
 if __name__ == '__main__':
     if len(sys.argv) < 2:
-        print('Must supply commit message for deployment!')
-        sys.exit(0)
-    
-    commit_msg = sys.argv[1]
+        commit_msg = DEFAULT_COMMIT_MESSAGE
+        print(f'No commit message given, using default "{commit_msg}"')
+    else:
+        commit_msg = sys.argv[1]
+
     info('Building pages')
     os.system(f'cd {ROOT_DIR} && hugo')
 
