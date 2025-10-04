@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://victorhook.github.io/dronebuilds/posts/crux3/</loc>
+    <lastmod>2025-10-04T16:40:18+02:00</lastmod>
+  </url><url>
+    <loc>https://victorhook.github.io/dronebuilds/posts/</loc>
+    <lastmod>2025-10-04T16:40:18+02:00</lastmod>
+  </url><url>
+    <loc>https://victorhook.github.io/dronebuilds/</loc>
+    <lastmod>2025-10-04T16:40:18+02:00</lastmod>
+  </url><url>
     <loc>https://victorhook.github.io/dronebuilds/tags/brushed-drone/</loc>
     <lastmod>2024-12-03T20:27:44+01:00</lastmod>
   </url><url>
     <loc>https://victorhook.github.io/dronebuilds/tags/f8-fc/</loc>
-    <lastmod>2024-12-03T20:27:44+01:00</lastmod>
-  </url><url>
-    <loc>https://victorhook.github.io/dronebuilds/posts/</loc>
     <lastmod>2024-12-03T20:27:44+01:00</lastmod>
   </url><url>
     <loc>https://victorhook.github.io/dronebuilds/tags/quadcopter/</loc>
@@ -18,9 +24,6 @@
     <lastmod>2024-12-03T20:27:44+01:00</lastmod>
   </url><url>
     <loc>https://victorhook.github.io/dronebuilds/posts/golden-quad/</loc>
-    <lastmod>2024-12-03T20:27:44+01:00</lastmod>
-  </url><url>
-    <loc>https://victorhook.github.io/dronebuilds/</loc>
     <lastmod>2024-12-03T20:27:44+01:00</lastmod>
   </url><url>
     <loc>https://victorhook.github.io/dronebuilds/tags/ardupilot/</loc>
